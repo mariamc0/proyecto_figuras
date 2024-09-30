@@ -5,3 +5,6 @@ def get_area(n) -> int:
 
 def get_identificador() -> str:
     return "Cuadrado"
+
+def get_perimetro(lado: int) -> int:
+    return 4*lado
